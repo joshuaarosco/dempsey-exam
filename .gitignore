@@ -1,0 +1,13 @@
+/node_modules
+/public/storage
+/public/web.config
+/public/hot
+/public/.htaccess
+/public/.htaccess
+/storage/*.key
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+.laravel-echo-server.json
