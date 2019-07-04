@@ -61,7 +61,6 @@ class EmployeeController extends Controller{
 			$new_employee->type = "employee";
 			$new_employee->email = Str::lower($request->get('email'));
 			$new_employee->password = bcrypt($request->password);
-			$new_employee->authentication_code = bcrypt($request->password);
 
 			if(Input::hasFile('file')){
 				$upload = ImageUploader::upload($request['file'],'storage/employees');
